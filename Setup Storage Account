@@ -1,0 +1,36 @@
+In some of the chapters you might need something known as a storage account.
+
+We will go through storage accounts in an upcoming section, but to quickly create a storage account, one can go through the following steps
+
+1) Go ahead to Azure and go the section on storage accounts
+
+
+2) Next go ahead to create a new storage account
+
+
+3) Specify the below settings for the storage account
+
+
+Specify an existing resource group
+
+Ensure to give a unique name for the storage account
+
+Specify the location which would the same as the location for the Virtual machine for which you are going to enable the backup for
+
+Ensure to specify the Performance as Standard
+
+Ensure the account kind is StorageV2
+
+Ensure the replication is Locally-redundant storage
+
+Define the access tier as Hot
+
+4) Keep the Networking details as default
+
+
+5) Keep the Advanced settings as default
+
+
+Then you can go ahead and create the storage account.
+
+
