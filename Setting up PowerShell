@@ -1,0 +1,7 @@
+// Allow remote signed scripts to run
+
+Set-ExecutionPolicy RemoteSigned
+
+//Installing the Azure PowerShell modules
+
+Install-Module -Name Az -AllowClobber -Scope CurrentUser
